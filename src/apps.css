@@ -1,0 +1,159 @@
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #ccc;
+  margin-bottom: 10px;
+  background-color: #090a6b;
+  color: #ccc;
+
+}
+
+.text {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.icons {
+  display: flex;
+}
+
+.icon {
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.icon:hover {
+  color: #ff0000; /* Change color on hover */
+}
+/* apps.css */
+
+
+
+Container for the entire app
+.Apps-data {
+  margin: 30px;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #030c86;
+  padding: 10px;
+  color: white;
+}
+
+.header-title {
+  margin: 0;
+}
+
+.icon-btn {
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+/* Top section styles */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin: 5px;
+}
+
+/* List styles */
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* ToDo component styles */
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px; */
+  border: 1px solid #e9e9e9;
+  background-color: rgb(15, 0, 153);
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.text {
+  flex-grow: 1;
+  /* margin-right: 10px; */
+}
+
+.icons {
+  display: flex;
+}
+
+.icon {
+  cursor: pointer;
+  margin-right: 5px;
+  font-size: 1.2em;
+  color: #ffffff;
+}
+
+.icon:hover {
+  color: #ff0000; /* Change color on hover */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+  .top {
+    flex-direction: column;
+  }
+
+  .list {
+    flex-direction: column;
+  }
+}
+#add-1{
+  margin: 5px;
+  margin-left: 50px;
+  height: 50px;
+  width: 100px;
+
+}
+
+
+
+/* ... Existing styles ... */
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+  .top {
+    flex-direction: column;
+  }
+
+  .list {
+    flex-direction: column;
+  }
+
+  /* Adjustments for smaller screens */
+  .todo {
+    padding: 10px; /* You can adjust the padding for smaller screens */
+    margin-bottom: 5px; /* You can adjust the margin for smaller screens */
+  }
+
+  .text {
+    margin-right: 0; /* You can adjust the margin for smaller screens */
+  }
+
+  .icon {
+    font-size: 1em; /* You can adjust the font size for smaller screens */
+  }
+  
+  #add-1{
+    margin-left: 0; /* Adjust the margin-left for smaller screens */
+    width: 100%; /* Make the button full-width for smaller screens */
+  }
+}

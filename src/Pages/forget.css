@@ -1,0 +1,54 @@
+/* forget.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-content {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control7 {
+  width: 100%;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.alert {
+  margin-top: 15px;
+}
+
+.d-grid {
+  text-align: center;
+}
+
+.linktag {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.linktag1 {
+  color: #007bff;
+  cursor: pointer;
+}

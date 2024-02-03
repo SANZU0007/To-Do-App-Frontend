@@ -1,0 +1,28 @@
+/* Add these styles to your CSS file */
+
+.CardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.Card {
+  width: 300px; /* Adjust the width as needed */
+}
+/* Add these styles to your CSS file */
+
+/* Add these styles to your CSS file */
+
+.linktag {
+  font-size: large;
+  color: blue; /* Change color as needed */
+  text-decoration: underline; /* Add underline */
+  cursor: pointer; /* Change cursor on hover */
+  /* Add more styles if needed */
+}
+
+.linktag1 {
+  font-weight: bold; /* Make the text bold */
+  text-decoration: none;
+}
